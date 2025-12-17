@@ -21,7 +21,7 @@ const QuickNotes = () => {
     const [notes, setNotes] = useState<QuickNote[]>([]);
     const [newNote, setNewNote] = useState('');
     const [newTitle, setNewTitle] = useState('');
-    const [selectedType, setSelectedType] = useState<'text' | 'checklist'>('checklist');
+    const [selectedType] = useState<'text' | 'checklist'>('checklist');
     const [newTags, setNewTags] = useState('');
     const [searchQuery, setSearchQuery] = useState('');
     const [showAdd, setShowAdd] = useState(false);

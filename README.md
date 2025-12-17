@@ -101,6 +101,12 @@ cd PrivyJournal/client
 npm run dev
 # Client will run on http://localhost:5173 (default)
 ```
+---
+### Admin Features
+TO access admin features, you need to **sign up** with the following credentials:
+- Username : admin (default)
+- Password: "Set your password while signup"
+
 
 ## 📄 License
 
