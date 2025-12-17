@@ -58,7 +58,22 @@ PrivyJournal is a modern, self-hosted web application designed for secure and pr
    npm install
    ```
 
-### 🏃‍♂️ Running Locally
+### 🐳 Run with Docker (Recommended)
+
+You can run the entire application with a single command using Docker.
+
+1. **Ensure you have Docker installed.**
+2. **Run the following command:**
+   ```bash
+   docker-compose up -d --build
+   ```
+3. **Access the app:**
+   - Frontend: http://localhost:8080
+   - Backend API: http://localhost:5000
+
+The database will be persisted in `server/data`.
+
+### 🏃‍♂️ Running Locally (Manual)
 
 To run the application in development mode:
 
