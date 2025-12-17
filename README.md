@@ -4,7 +4,9 @@
 
 PrivyJournal is a modern, self-hosted web application designed for secure and private journaling. Built with privacy in mind, it allows you to keep track of your thoughts, daily activities, and insights without relying on third-party cloud services.
 
-## ✨ Features
+---
+
+# ✨ Features
 
 - **🔒 Private & Secure**: Self-hosted solution means you own your data.
 - **📝 Rich Text Editing**: Support for Markdown journaling to express yourself freely.
@@ -12,8 +14,11 @@ PrivyJournal is a modern, self-hosted web application designed for secure and pr
 - **📅 Calendar View**: Navigate through your entries with an intuitive calendar interface.
 - **🏷️ Quick Notes**: Rapidly capture thoughts and ideas on the go.
 - **🌓 Modern UI**: Clean, responsive interface built with React and Vite.
+---
+https://github.com/user-attachments/assets/70549876-509a-46de-a6bc-e66a5238c987
 
-## 🛠️ Tech Stack
+---
+# 🛠️ Tech Stack
 
 ### Client (Frontend)
 - **Framework**: React (Vite)
@@ -29,10 +34,6 @@ PrivyJournal is a modern, self-hosted web application designed for secure and pr
 - **Authentication**: JWT & Bcrypt
 
 ## 🚀 Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- [npm](https://www.npmjs.com/) or yarn
 
 ### Installation
 
@@ -73,7 +74,16 @@ You can run the entire application with a single command using Docker.
 
 The database will be persisted in `server/data`.
 
+4. **To stop the docker:**
+   ```bash
+   docker-compose down
+   ```
+
 ### 🏃‍♂️ Running Locally (Manual)
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/) or yarn
 
 To run the application in development mode:
 
